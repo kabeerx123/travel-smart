@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Smart - Explore the World</title>
+    <link rel="icon" type="image/png" href="assets/images/Favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/Css/index.css">
+</head>
+<body>
+    <!-- Background Container -->
+    <div class="background-container"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-globe-americas"></i>
+                TravelSmart
+            </a>
+            <div class="logo-label">Explore The World</div>
+        </div>
+        
+        <ul class="nav-links">
+            <li>
+                <a href="index.html" class="active">Home</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Trips.html">Trips</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Accommodations.html">Accommodations</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Transport.html">Transport</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Reviews.html">Reviews</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="About_Us.html">About</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Contact_Us.html">Contact</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="sitemap.html">Sitemap</a>
+                <div class="lightning-effect"></div>
+            </li>
+        </ul>
+        
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover The World With Confidence</h1>
+        <p>Find the best destinations, accommodations, and transportation options for your next adventure</p>
+        
+        <div class="search-box">
+            <div class="search-input">
+                <input type="text" id="searchInput" placeholder="Search for destinations or activities...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Destinations</h3>
+                <p>Explore hundreds of amazing places around the world</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-hotel"></i>
+                <h3>Accommodations</h3>
+                <p>Find the perfect place to stay for any budget</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-plane"></i>
+                <h3>Transport</h3>
+                <p>Book flights, trains, and buses with ease</p>
+            </div>
+            
+            <div class="feature-card">
+                <i class="fas fa-star"></i>
+                <h3>Reviews</h3>
+                <p>Read authentic reviews from fellow travelers</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Statistics Section -->
+    <section class="section">
+        <div class="stats-section">
+            <div class="stat-card">
+                <div class="stat-number">10,000+</div>
+                <div class="stat-label">Properties Worldwide</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Destinations</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2M+</div>
+                <div class="stat-label">Happy Travelers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Customer Support</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Popular Destinations Section -->
+    <section class="section">
+        <h2 class="section-title">Popular Destinations</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: #b0b0b0;">
+            Discover the most sought-after travel destinations around the world, handpicked by our travel experts.
+        </p>
+        
+        <div class="destinations">
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali" class="destination-img">
+                <div class="destination-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Experience the perfect blend of culture, beaches, and nightlife in the Island of Gods.</p>
+                    <div class="destination-meta">
+                        <span class="price">From $899</span>
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paris" class="destination-img">
+                <div class="destination-content">
+                    <h3>Paris, France</h3>
+                    <p>Fall in love with the City of Light, its iconic landmarks, and world-class cuisine.</p>
+                    <div class="destination-meta">
+                        <span class="price">From $1,199</span>
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini" class="destination-img">
+                <div class="destination-content">
+                    <h3>Santorini, Greece</h3>
+                    <p>Enjoy breathtaking sunsets and stunning white-washed buildings in this Aegean paradise.</p>
+                    <div class="destination-meta">
+                        <span class="price">From $1,099</span>
+                        <span class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="Accommodations.html" class="btn">View All Destinations</a>
+        </div>
+    </section>
+    
+    <!-- Special Deals Section -->
+    <section class="section">
+        <div class="deals-section">
+            <div class="deals-content">
+                <h2>Special Summer Deals</h2>
+                <p>Book now and save up to 40% on selected destinations. Limited time offer!</p>
+                
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="days">12</div>
+                        <div class="countdown-label">Days</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="hours">18</div>
+                        <div class="countdown-label">Hours</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="minutes">45</div>
+                        <div class="countdown-label">Minutes</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="seconds">30</div>
+                        <div class="countdown-label">Seconds</div>
+                    </div>
+                </div>
+                
+                <a href="Accommodations.html" class="btn">View All Deals</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Travel Types Section -->
+    <section class="section">
+        <h2 class="section-title">Find Your Travel Style</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: #b0b0b0;">
+            Whatever your travel preferences, we have the perfect options for you.
+        </p>
+        
+        <div class="travel-types">
+            <div class="travel-type-card">
+                <i class="fas fa-umbrella-beach"></i>
+                <h3>Beach Getaways</h3>
+                <p>Relax on pristine beaches with crystal clear waters and luxurious resorts.</p>
+                <a href="Transport.html" class="btn">Explore</a>
+            </div>
+            
+            <div class="travel-type-card">
+                <i class="fas fa-mountain"></i>
+                <h3>Adventure Travel</h3>
+                <p>Experience thrilling activities and explore nature's most spectacular wonders.</p>
+                <a href="Transport.html" class="btn">Explore</a>
+            </div>
+            
+            <div class="travel-type-card">
+                <i class="fas fa-city"></i>
+                <h3>City Breaks</h3>
+                <p>Discover vibrant cities with rich culture, dining, and entertainment options.</p>
+                <a href="Accommodations.html" class="btn">Explore</a>
+            </div>
+            
+            <div class="travel-type-card">
+                <i class="fas fa-heart"></i>
+                <h3>Romantic Trips</h3>
+                <p>Create unforgettable memories with your loved one in dream destinations.</p>
+                <a href="Transport.html" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Image Slider Section -->
+    <section class="section">
+        <h2 class="section-title">Travel Inspiration</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: #b0b0b0;">
+            Get inspired for your next journey with these breathtaking destinations.
+        </p>
+        
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Nature">
+                    <div class="slide-content">
+                        <h3>Norwegian Fjords</h3>
+                        <p>Experience the breathtaking beauty of Norway's majestic fjords</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Beach">
+                    <div class="slide-content">
+                        <h3>Maldives Paradise</h3>
+                        <p>Relax in overwater bungalows with crystal clear waters</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Tokyo">
+                    <div class="slide-content">
+                        <h3>Tokyo, Japan</h3>
+                        <p>Discover the perfect blend of tradition and innovation</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section">
+        <h2 class="section-title">What Our Travelers Say</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: #b0b0b0;">
+            Hear from travelers who have explored the world with TravelSmart and created unforgettable memories.
+        </p>
+        
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    "TravelSmart made my dream vacation to Bali a reality. Their recommendations for accommodations and activities were spot on. I couldn't have asked for a better experience!"
+                </p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" class="author-img">
+                    <div class="author-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>Traveled to Bali</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    "The transport booking feature saved me so much time and money. I was able to compare all options and choose the best one for my European tour. Highly recommended!"
+                </p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen" class="author-img">
+                    <div class="author-info">
+                        <h4>Michael Chen</h4>
+                        <p>Traveled to Europe</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    "As a solo traveler, safety is my top priority. TravelSmart's verified accommodations and reliable transport options gave me peace of mind throughout my journey."
+                </p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jessica Williams" class="author-img">
+                    <div class="author-info">
+                        <h4>Jessica Williams</h4>
+                        <p>Solo Traveler</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-text">
+                    "The customer service was exceptional! When my flight got canceled, TravelSmart helped me rebook everything within hours. They truly care about their customers."
+                </p>
+                <div class="testimonial-author">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="David Wilson" class="author-img">
+                    <div class="author-info">
+                        <h4>David Wilson</h4>
+                        <p>Business Traveler</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Section -->
+    <section class="section">
+        <h2 class="section-title">Travel Blog & Tips</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px; color: #b0b0b0;">
+            Get the latest travel insights, tips, and destination guides from our experts.
+        </p>
+        
+        <div class="blog-posts">
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Travel Tips" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">June 15, 2023</div>
+                    <h3>10 Essential Tips for First-Time International Travelers</h3>
+                    <p>Planning your first trip abroad? These tips will help you navigate like a pro and make the most of your journey.</p>
+                    <a href="About_Us.html" class="btn">Read More</a>
+                </div>
+            </div>
+            
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hidden Gems" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">May 28, 2023</div>
+                    <h3>Hidden Gems: 5 Underrated European Destinations</h3>
+                    <p>Skip the crowded tourist spots and discover these beautiful, less-traveled destinations across Europe.</p>
+                    <a href="About_Us.html" class="btn">Read More</a>
+                </div>
+            </div>
+            
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1526139334526-f591a54b477c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Packing Guide" class="blog-img">
+                <div class="blog-content">
+                    <div class="blog-date">May 10, 2023</div>
+                    <h3>The Ultimate Packing Guide for Different Climates</h3>
+                    <p>Learn how to pack efficiently for any destination, whether you're heading to the tropics or the arctic.</p>
+                    <a href="About_Us.html" class="btn">Read More</a>
+                </div>
+            </div>
+            
+           
+            </div>
+        </div>
+    </section>
+    
+    <!-- App Download Section -->
+    <section class="section">
+        <div class="app-download">
+            <div class="app-content">
+                <h2>Travel Smarter with Our Mobile App</h2>
+                <p>Book flights, hotels, and experiences on the go. Get exclusive mobile-only deals and manage your trips easily.</p>
+                
+                <div class="app-buttons">
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-apple"></i>
+                        <div class="app-btn-text">
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="app-btn">
+                        <i class="fab fa-google-play"></i>
+                        <div class="app-btn-text">
+                            <span>Get it on</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About TravelSmart</h3>
+                <p>TravelSmart is your trusted partner in exploring the world. We provide seamless travel planning, curated experiences, and reliable services to make your journeys unforgettable.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Trips.html">Trips</a></li>
+                    <li><a href="Accommodations.html">Accommodations</a></li>
+                    <li><a href="Transport.html">Transport</a></li>
+                    <li><a href="Reviews.html">Reviews</a></li>
+                    <li><a href="About_Us.html">About</a></li>
+                    <li><a href="Contact_Us.html">Contact</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Popular Destinations</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bali, Indonesia</a></li>
+                    <li><a href="#">Paris, France</a></li>
+                    <li><a href="#">Santorini, Greece</a></li>
+                    <li><a href="#">Kyoto, Japan</a></li>
+                    <li><a href="#">New York, USA</a></li>
+                    <li><a href="#">Sydney, Australia</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Travel Tips</a></li>
+                    <li><a href="#">Packaging Guide</a></li>
+                    <li><a href="#">Travel Insurance</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 TravelSmart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="assets/Js/index.js">
+       
+    </script>
+</body> 
+</html>

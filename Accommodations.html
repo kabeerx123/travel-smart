@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Smart - Accommodations</title>
+    <link rel="icon" type="image/png" href="assets/images/Favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/Css/Accommodations.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-globe-americas"></i>
+                TravelSmart
+            </a>
+            <div class="logo-label">Explore The World</div>
+        </div>
+        
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">Home</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="trips.html">Trips</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="Accommodations.html" class="active">Accommodations</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="transport.html">Transport</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="reviews.html">Reviews</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+                <div class="lightning-effect"></div>
+            </li>
+            <li>
+                <a href="sitemap.html">Sitemap</a>
+                <div class="lightning-effect"></div>
+            </li>
+        </ul>
+        
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+    
+    <section class="page-hero">
+        <h1>Find Your Perfect Stay</h1>
+        <p>Discover the best accommodations around the world with detailed information, amenities, and transport options</p>
+        <!-- <a href="#accommodations" class="btn">Explore Accommodations</a> -->
+    </section>
+    
+    <div class="search-bar">
+        <div class="search-container">
+            <input type="text" placeholder="Search for destinations, hotels, or amenities...">
+            <button type="submit">Search</button>
+        </div>
+    </div>
+    
+    <section class="section" id="accommodations">
+        <h2 class="section-title">Accommodations by Destination</h2>
+        
+        <div class="filter-section">
+            <h3 class="filter-title">Filter by Type</h3>
+            <div class="filter-options">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Luxury</button>
+                <button class="filter-btn">Budget</button>
+                <button class="filter-btn">Beach</button>
+                <button class="filter-btn">Mountain</button>
+                <button class="filter-btn">City</button>
+                <button class="filter-btn">Family-Friendly</button>
+            </div>
+        </div>
+        
+        <div class="destination-tabs">
+            <button class="tab-btn active" data-target="bali">Bali, Indonesia</button>
+            <button class="tab-btn" data-target="paris">Paris, France</button>
+            <button class="tab-btn" data-target="santorini">Santorini, Greece</button>
+            <button class="tab-btn" data-target="kyoto">Kyoto, Japan</button>
+            <button class="tab-btn" data-target="dubai">Dubai, UAE</button>
+            <button class="tab-btn" data-target="newyork">New York, USA</button>
+        </div>
+        
+        <div class="destination-content active" id="bali">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Luxury & Budget Stays in Bali</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">15% OFF Early Booking</span>
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali Resort" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Luxury Resort</span>
+                        <h3>Ubud Paradise Resort</h3>
+                        <p>Nestled in the heart of Ubud, this resort offers stunning rice terrace views, infinity pools, and traditional Balinese spa treatments.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $189/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Pool</span>
+                            <span class="amenity">Spa</span>
+                            <span class="amenity">Restaurant</span>
+                            <span class="amenity">Free WiFi</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 45 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Available
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-shuttle-van"></i> Shuttle: Free
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali Villa" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Private Villa</span>
+                        <h3>Seminyak Beach Villa</h3>
+                        <p>Private villa with direct beach access, personal pool, and dedicated staff. Perfect for families and groups.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $320/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Private Pool</span>
+                            <span class="amenity">Beach Access</span>
+                            <span class="amenity">Kitchen</span>
+                            <span class="amenity">AC</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 30 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bicycle"></i> Bike Rental: $5/day
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-car"></i> Car Rental: Available
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">10% OFF Weekly Stay</span>
+                    <img src="https://images.unsplash.com/photo-1653983307864-2052cbc1cb2d?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bali Hostel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Budget Hostel</span>
+                        <h3>Canggu Surf Hostel</h3>
+                        <p>Social hostel for backpackers and surf enthusiasts. Just 5 minutes from the beach with board rental included.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $25/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Dorm Rooms</span>
+                            <span class="amenity">Common Kitchen</span>
+                            <span class="amenity">Surf Board Rental</span>
+                            <span class="amenity">Tour Desk</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 1.5 hours
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-motorcycle"></i> Scooter: $7/day
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                 <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1535391879778-3bae11d29a24?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bali Homestay" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Homestay</span>
+                        <h3>Ubud Art Homestay</h3>
+                        <p>Authentic Balinese homestay experience. Stay with a local family and learn about Balinese culture and traditions.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $45/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Breakfast Included</span>
+                            <span class="amenity">Cooking Class</span>
+                            <span class="amenity">Local Guide</span>
+                            <span class="amenity">Free WiFi</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 1 hour
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Local Taxi: On request
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bicycle"></i> Bike Rental: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="destination-content" id="paris">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Charming Stays in Paris</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">5% OFF Early Booking</span>
+                    <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paris Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Boutique Hotel</span>
+                        <h3>Le Marais Elegance</h3>
+                        <p>Charming hotel in the historic Le Marais district. Elegant rooms with classic Parisian decor and balcony views.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $210/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Breakfast Included</span>
+                            <span class="amenity">Bar</span>
+                            <span class="amenity">Concierge</span>
+                            <span class="amenity">Historic Building</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 200m
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> CDG: 45 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bicycle"></i> Velib: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paris Apartment" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Apartment Rental</span>
+                        <h3>Eiffel Tower View Loft</h3>
+                        <p>Modern loft apartment with stunning direct views of the Eiffel Tower. Fully equipped kitchen and spacious living area.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $350/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Eiffel Tower View</span>
+                            <span class="amenity">Full Kitchen</span>
+                            <span class="amenity">Washer/Dryer</span>
+                            <span class="amenity">Elevator</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-ship"></i> Seine River Cruise: 10 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Always available
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="accommodation-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1661963064037-cfcf2e10db2d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paris Hostel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Budget Hostel</span>
+                        <h3>Montmartre Hostel</h3>
+                        <p>Lively and social hostel located in the artistic Montmartre neighborhood. Perfect for meeting other travelers.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $45/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Shared Dorms</span>
+                            <span class="amenity">Rooftop Terrace</span>
+                            <span class="amenity">Lounge Area</span>
+                            <span class="amenity">Free WiFi</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 2 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: Nearby
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Sacré-Cœur: 10 min walk
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">20% OFF Last Minute</span>
+                    <img src="https://images.unsplash.com/photo-1468413253725-0d5181091126?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Luxury Paris Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Luxury Hotel</span>
+                        <h3>Hotel de la Ville</h3>
+                        <p>5-star luxury hotel near the Champs-Élysées. Features include a gourmet restaurant, indoor pool, and spa services.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $580/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Indoor Pool</span>
+                            <span class="amenity">Spa</span>
+                            <span class="amenity">Gourmet Dining</span>
+                            <span class="amenity">Valet Parking</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-car"></i> Chauffeur Service
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Arc de Triomphe: 10 min
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="destination-content" id="santorini">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Stunning Stays in Santorini</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">10% OFF</span>
+                    <img src="https://images.unsplash.com/photo-1549923015-870c045f5e64?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Santorini Cave Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Cave Hotel</span>
+                        <h3>Oia Cliffs Suites</h3>
+                        <p>Luxury suites carved into the cliffs of Oia, offering private plunge pools and breathtaking caldera views. The ultimate romantic getaway.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $450/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Private Pool</span>
+                            <span class="amenity">Caldera View</span>
+                            <span class="amenity">Breakfast Included</span>
+                            <span class="amenity">Romantic</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 30 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-car-side"></i> Car Rental: Recommended
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-shuttle-van"></i> Shuttle: Available
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://media.istockphoto.com/id/119926339/photo/resort-swimming-pool.webp?a=1&b=1&s=612x612&w=0&k=20&c=WSUR0zm7RgU7LLCpa9ATpa_zYgetoyf5A-ZVfbDituw=" alt="Santorini Villa" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Traditional Villa</span>
+                        <h3>Fira Windmill Villa</h3>
+                        <p>A traditional windmill villa with authentic Cycladic architecture. Located in Fira with panoramic views of the Aegean Sea.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $280/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Sea View</span>
+                            <span class="amenity">Kitchenette</span>
+                            <span class="amenity">Private Terrace</span>
+                            <span class="amenity">Free WiFi</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Local Bus: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Available
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Fira Town: 15 min walk
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">15% OFF Summer Special</span>
+                    <img src="https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?q=80&w=1020&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Santorini Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Boutique Hotel</span>
+                        <h3>Imerovigli Sunset Hotel</h3>
+                        <p>Perched on the highest point of the caldera, this hotel offers some of the most spectacular sunset views on the island. A tranquil and luxurious retreat.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $350/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Infinity Pool</span>
+                            <span class="amenity">Sunset View</span>
+                            <span class="amenity">Spa</span>
+                            <span class="amenity">Restaurant</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 25 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-shuttle-van"></i> Shuttle: Free
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Hiking Trail: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="accommodation-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1661929519129-7a76946c1d38?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Santorini Hostel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Budget Hostel</span>
+                        <h3>Perissa Beach Hostel</h3>
+                        <p>A fun and affordable hostel just steps away from the famous black sand beach of Perissa. Offers a great social scene and easy access to local bars.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $35/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Shared Kitchen</span>
+                            <span class="amenity">Beach Proximity</span>
+                            <span class="amenity">Bar</span>
+                            <span class="amenity">Lounge Area</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Local Bus: Nearby
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Beach: 2 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: On request
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="destination-content" id="kyoto">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Cultural Stays in Kyoto</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">10% OFF</span>
+                    <img src="https://plus.unsplash.com/premium_photo-1661929519129-7a76946c1d38?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kyoto Traditional Ryokan" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Traditional Ryokan</span>
+                        <h3>Gion Hanamikoji Inn</h3>
+                        <p>Experience true Japanese hospitality in this traditional ryokan. Enjoy tatami mat rooms, kaiseki dining, and an onsen (hot spring) bath.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $250/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Onsen</span>
+                            <span class="amenity">Kaiseki Dining</span>
+                            <span class="amenity">Tatami Mats</span>
+                            <span class="amenity">Tea Ceremony</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Train Station: 15 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Gion District: 5 min walk
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kyoto Modern Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Modern Hotel</span>
+                        <h3>Kyoto Station Grand Hotel</h3>
+                        <p>A contemporary hotel with a sleek design, offering comfort and convenience right next to Kyoto Station for easy access to all sights.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $180/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Restaurant</span>
+                            <span class="amenity">Fitness Center</span>
+                            <span class="amenity">Free WiFi</span>
+                            <span class="amenity">Concierge</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Train Station: 1 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus Terminal: Next to hotel
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Available
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">5% OFF</span>
+                    <img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kyoto Machiya" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Machiya House</span>
+                        <h3>Kyoto Machiya Retreat</h3>
+                        <p>Rent a whole traditional machiya (townhouse) for a private and authentic stay. Features a private garden, and modern amenities.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $320/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Private House</span>
+                            <span class="amenity">Garden</span>
+                            <span class="amenity">Full Kitchen</span>
+                            <span class="amenity">Washer/Dryer</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-bicycle"></i> Bike Rental: $8/day
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: 3 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Local Sights: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Kyoto Hostel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Hostel</span>
+                        <h3>Fushimi Inari Hostel</h3>
+                        <p>A friendly and clean hostel perfect for backpackers. Located near the famous Fushimi Inari Shrine and offers a welcoming atmosphere.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $30/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Dorm Rooms</span>
+                            <span class="amenity">Shared Kitchen</span>
+                            <span class="amenity">Lounge Area</span>
+                            <span class="amenity">Luggage Storage</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Fushimi Inari Station: 5 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: 10 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Fushimi Inari Shrine: 10 min
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="destination-content" id="dubai">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Luxury Stays in Dubai</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">12% OFF Early Booking</span>
+                    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Burj Al Arab" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">7-Star Luxury</span>
+                        <h3>Burj Al Arab Jumeirah</h3>
+                        <p>The world's most luxurious hotel, featuring stunning architecture, lavish suites, and impeccable service. An iconic symbol of Dubai.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $1,200/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Private Beach</span>
+                            <span class="amenity">Helipad</span>
+                            <span class="amenity">Butler Service</span>
+                            <span class="amenity">Luxury Spa</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-plane"></i> Airport: 30 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-car"></i> Limousine Service
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-ship"></i> Yacht Charter
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1529290130-4ca3753253ae?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Atlantis The Palm" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Resort & Waterpark</span>
+                        <h3>Atlantis The Palm</h3>
+                        <p>Iconic resort located on the Palm Jumeirah, featuring an enormous waterpark, aquarium, and stunning views of the Dubai skyline.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $450/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Waterpark Access</span>
+                            <span class="amenity">Aquarium</span>
+                            <span class="amenity">Private Beach</span>
+                            <span class="amenity">Kids Club</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 15 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Available
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-shuttle-van"></i> Shuttle: Free
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">8% OFF</span>
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dubai Downtown Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Luxury Hotel</span>
+                        <h3>Address Downtown</h3>
+                        <p>Sophisticated hotel in the heart of Downtown Dubai with direct views of the Burj Khalifa and The Dubai Fountain.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $380/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Infinity Pool</span>
+                            <span class="amenity">Spa</span>
+                            <span class="amenity">Fine Dining</span>
+                            <span class="amenity">Sky Views</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Dubai Mall: 10 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-taxi"></i> Taxi: Always available
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dubai Budget Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Budget Hotel</span>
+                        <h3>Deira City Hotel</h3>
+                        <p>Comfortable and affordable accommodation in the historic Deira district, close to traditional markets and the Dubai Creek.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $85/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Swimming Pool</span>
+                            <span class="amenity">Restaurant</span>
+                            <span class="amenity">Free WiFi</span>
+                            <span class="amenity">Tour Desk</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-train"></i> Metro: 10 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-ship"></i> Abra Boat: 5 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="destination-content" id="newyork">
+            <h3 style="text-align: center; margin-bottom: 30px; color: #D4AF37;">Iconic Stays in New York</h3>
+            
+            <div class="accommodation-grid">
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">15% OFF Weekend Stay</span>
+                    <img src="https://images.unsplash.com/photo-1580554530778-ca36943938b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="The Plaza Hotel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Luxury Hotel</span>
+                        <h3>The Plaza Hotel</h3>
+                        <p>Historic luxury hotel overlooking Central Park. A New York City landmark offering opulent accommodations and legendary service.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $950/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Central Park View</span>
+                            <span class="amenity">Butler Service</span>
+                            <span class="amenity">Spa</span>
+                            <span class="amenity">Fine Dining</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-subway"></i> Subway: 2 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-car"></i> Valet Parking
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> 5th Avenue: Direct access
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Manhattan Loft" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Luxury Loft</span>
+                        <h3>Soho Penthouse Loft</h3>
+                        <p>Spacious industrial-chic loft in trendy Soho with private rooftop terrace offering panoramic views of the Manhattan skyline.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $650/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Rooftop Terrace</span>
+                            <span class="amenity">Full Kitchen</span>
+                            <span class="amenity">Washer/Dryer</span>
+                            <span class="amenity">City Views</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-subway"></i> Subway: 5 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Soho Shopping: 2 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bicycle"></i> Citi Bike: Nearby
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card card-with-badge">
+                    <span class="discount-badge">10% OFF Weekly Stay</span>
+                    <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pod Times Square" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Boutique Hotel</span>
+                        <h3>Pod Times Square</h3>
+                        <p>Innovative, tech-forward hotel in the heart of Times Square offering compact but well-designed rooms at an affordable price.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $180/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Smart Room</span>
+                            <span class="amenity">Rooftop Bar</span>
+                            <span class="amenity">Free WiFi</span>
+                            <span class="amenity">Central Location</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-subway"></i> Subway: 3 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-theater-masks"></i> Broadway: 2 min
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Times Square: Direct access
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="accommodation-card">
+                    <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Brooklyn Hostel" class="accommodation-img">
+                    <div class="accommodation-content">
+                        <span class="accommodation-type">Hostel</span>
+                        <h3>Brooklyn Arts Hostel</h3>
+                        <p>Trendy hostel in Williamsburg, Brooklyn with an artistic vibe. Perfect for travelers looking to experience NYC's creative side.</p>
+                        
+                        <div class="accommodation-meta">
+                            <span class="price">From $55/night</span>
+                            <span class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <i class="far fa-star"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="amenities">
+                            <span class="amenity">Art Exhibitions</span>
+                            <span class="amenity">Common Kitchen</span>
+                            <span class="amenity">Live Music</span>
+                            <span class="amenity">Bike Rental</span>
+                        </div>
+                        
+                        <div class="transport-options">
+                            <h4>Transport Options</h4>
+                            <div class="transport-list">
+                                <div class="transport-item">
+                                    <i class="fas fa-subway"></i> Subway: 7 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-bus"></i> Bus: 2 min walk
+                                </div>
+                                <div class="transport-item">
+                                    <i class="fas fa-walking"></i> Williamsburg: Explore on foot
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="btn" style="width: 100%;">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="stats-section">
+        <div class="stat-card">
+            <div class="stat-number">10,000+</div>
+            <div class="stat-label">Properties Worldwide</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">500+</div>
+            <div class="stat-label">Destinations</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">2M+</div>
+            <div class="stat-label">Happy Travelers</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Customer Support</div>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About TravelSmart</h3>
+                <p>TravelSmart is your trusted partner in exploring the world. We provide seamless travel planning, curated experiences, and reliable services to make your journeys unforgettable.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="accommodations.html">Accommodations</a></li>
+                    <li><a href="transport.html">Transport</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Popular Destinations</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bali, Indonesia</a></li>
+                    <li><a href="#">Paris, France</a></li>
+                    <li><a href="#">Santorini, Greece</a></li>
+                    <li><a href="#">Kyoto, Japan</a></li>
+                    <li><a href="#">New York, USA</a></li>
+                    <li><a href="#">Sydney, Australia</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Travel Tips</a></li>
+                    <li><a href="#">Packaging Guide</a></li>
+                    <li><a href="#">Visa Information</a></li>
+                    <li><a href="#">Health & Safety</a></li>
+                    <li><a href="#">Our Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2024 TravelSmart. All Rights Reserved.
+        </div>
+    </footer>
+    
+    <script src="/assets/Js/Accommodations.js"></script>
+</body>
+</html>
